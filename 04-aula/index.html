@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+  </head>
+  <body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="">
+      <fieldset>
+        <legend>Dados de login</legend>
+        <!-- Caixinha de nome -->
+        <label for="nome"> Nome: </label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome..."
+          maxlength="15"
+        />
+        <br />
+        <br />
+        <!-- Caixinha de email -->
+        <label for="email"> Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email..."
+        />
+        <br /><br />
+        <!-- Caixinha de senha -->
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Senha misteriosa"
+        />
+        <br /><br />
+        <!-- Botao pra enviar o formulário -->
+        <input type="submit" value="Login" />
+      </fieldset>
+    </form>
+    <br />
+    <h1>Outros inputs top</h1>
+    <!-- Outros inputs -->
+
+    <!-- Datas -->
+    <label for="data"> Data de nascimento:</label>
+    <input type="date" id="data" />
+    <input type="datetime-local" />
+    <input type="time" />
+
+    <br /><br />
+    <!-- Telefone -->
+    <label for="telefone"> Telefone:</label>
+    <input
+      type="tel"
+      name="telefone"
+      data-mask="(00) 00000-0000"
+      data-mask-selectonfous="true"
+    />
+    <br /><br />
+    <!-- Texto maior -->
+    <label for="textao"> Texto grande</label>
+    <textarea
+      name="textao"
+      id="textao"
+      placeholder="Coloca um texto legal ai..."
+    >
+    </textarea>
+    <br /><br />
+
+    <!-- Cores -->
+    <label for="cor">Cor:</label>
+    <input type="color" name="cor" id="cor" />
+    <br /><br />
+
+    <!-- Numeros -->
+    <label for="numero">Número:</label>
+    <input type="number" min="-50" max="100" value="7" step="5" />
+
+    <br /><br />
+    <!-- Barrinha -->
+    <label for="barra"> Barrinha top:</label>
+    0
+    <input type="range" name="barra" id="barra" min="0" max="100" step="20" />
+    100
+
+    <br /><br />
+
+    <!-- Caixinha de seleção -->
+    <label for="curso"> Selecione seu curso: </label>
+    <br />
+    <!-- Bolinha -->
+    <input type="radio" name="curso" value="eletrica" /> Elétrica
+    <input type="radio" name="curso" value="mecanica" /> Mecânica
+    <input type="radio" name="curso" value="t.i." /> T.I.
+
+    <br /><br />
+    <!-- Caixinha -->
+    <label for=""> Redes sociais</label>
+    <br />
+    <input type="checkbox" name="tec1" value="zap" /> Zap zap
+    <input type="checkbox" name="tec2" value="face" /> Face
+    <input type="checkbox" name="tec3" value="tt" /> Tuíter
+
+    <br /><br />
+    <!-- Seleção -->
+    <label for="cidades"> Selecione sua cidade:</label>
+    <select name="cidades" id="cidades">
+      <optgroup name="es" value="Es" label="ES">
+        <option value="cariacica">Cariacica</option>
+        <option value="gua">Guarapari</option>
+      </optgroup>
+      <option value="bc">B.C.</option>
+      <option value="toquio">Tóquio</option>
+      <option value="sa">San andreas</option>
+    </select>
+
+    <br><br>
+    <!-- botao de reset -->
+     <input type="reset" value="Reset">

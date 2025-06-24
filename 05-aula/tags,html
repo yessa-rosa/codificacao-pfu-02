@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tags</title>
+  </head>
+  <body style="background-color: azure; margin: 0px; padding: 0px">
+    <header
+      style="
+        background-color: #e0e0e0;
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      "
+    >
+      <h1>Meu site incrível</h1>
+      <nav
+        style="
+          background-color: beige;
+          border: 1px solid #ccc;
+          margin: 10px;
+          padding: 10px;
+        "
+      >
+        <ul style="list-style: none; padding: 0px; margin: 0px">
+          <!-- Link 1 -->
+          <li style="color: blueviolet; display: inline; margin-right: 15px">
+            <a href=""> Home </a>
+          </li>
+          <!-- Link 2 -->
+          <li style="color: blueviolet; display: inline; margin-right: 15px">
+            <a href=""> Formulário </a>
+          </li>
+          <!-- Link 3 -->
+          <li style="color: blueviolet; display: inline; margin-right: 15px">
+            <a href=""> Contato </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Pai de todos -->
+    <main
+      style="
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(247, 141, 226);
+        display: flex;
+      "
+    >
+      <!-- Barra lateral com aside -->
+      <aside
+        style="
+          background-color: greenyellow;
+          border: 1px solid;
+          margin: 10px 20px;
+          padding: 10px;
+          width: 20%;
+        "
+      >
+        <h2>Barra lateral</h2>
+        <p>
+          Conteúdo semi-importante, mas nem tanto, mas é bom estar ai também
+        </p>
+      </aside>
+
+      <!-- Quadrado maior  -->
+      <section
+        style="
+          border: 1px solid black;
+          padding: 10px;
+          margin: 10px;
+          background-color: rgb(119, 167, 250);
+          width: 70%;
+        "
+      >
+        <!-- Artigo principal -->
+        <article
+          style="
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: gold;
+          "
+        >
+          <h3>Meu título muito legal</h3>
+          <p>
+            História muito boa contada aqui, pra você rir e se alegrar muitão
+          </p>
+          <figure>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSrJKdB6-ugrz_niV00BfApx9sw2Rb34_7Vw__4a-zvn95CuvcVtJjs-irirzhN2SLTbI71fKWGjnQX0eU"
+              alt=""
+              width="300px"
+              height="200px"
+            />
+            <figcaption><b>Figura 7: </b> O milior</figcaption>
+          </figure>
+        </article>
+        <!-- Seção dentro de outra -->
+        <section
+          style="
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(253, 149, 21);
+          "
+        >
+        <h3>Título por último</h3>
+        <p>último paragráfo de todos eles</p>
+      </section>
+      </section>
+    </main>
+
+    <footer
+      style="
+        background-color: bisque;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      "
+    >
+      <p>
+        &copy; Todos os direitos reservados a minha pessoa, se usar vai ter que
+        me pagar
+      </p>
+    </footer>
+  </body>
+</html>

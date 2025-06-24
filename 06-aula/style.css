@@ -1,0 +1,48 @@
+/* estilização por tag */
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+  background-color: orange;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div {
+  background-color: chartreuse;
+}
+
+p{
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* estilização por id */
+#caixa-roxa {
+  background-color: purple;
+  color: white;
+  width: 200px;
+  height: 300px;
+}
+
+#caixa-rosa {
+  background-color: #e94196;
+  color: white;
+  width: 1200px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* estilização por class */
+.minicaixa {
+  background-color: black;
+  font-size: 35px;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+}
