@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#principal{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    background-color: blueviolet;
+ background-image:linear-gradient( red 10%, white 60%, black);
+}
+
+#secundario{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    background-color: blue;
+    background-image: url("https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/12/06/design_sem_nome__1_-33289546.jpg?67531dbe4d557");
+   background-size: auto;
+   background-repeat: repeat-x;
+   background-position: 50%;
+   background-attachment:fixed;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(251, 118, 118);
+    height: 2000px;
+}
+
+.pai{
+    width: 200px;
+    height: 200px;
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+}
+
+/* TIPO ESTÁTICO (que é o padrão) */
+#p-estatico{
+    background-color: aqua;
+    position: static;
+}
+
+#f-estatico{
+    background-color: yellow;
+    position: static;
+}
+
+/* TIPO FIXO */
+#p-fixo{
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+}
+
+#f-fixo{
+    background-color: black;
+}
+
+/* TIPO STICK */
+#p-stick{
+    background-color: darkseagreen;
+    width: 1000px;
+    height: 1000px;
+}
+
+#f-stick{
+    background-color: fuchsia;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+/* TIPO RELATIVO */
+#p-relative{
+    background-color:cornsilk;
+}
+
+#f-relative{
+    background-color:greenyellow;
+    position: relative;
+    left: 80px;
+    top:50px;
+}
+
+/* TIPO ABSOLUTE COM PAI ESTÁTICO*/
+#p-absolute{
+    background-color: rgb(182, 116, 243);
+    position: static;
+}
+
+#f-absolute{
+    background-color:rgba(0, 0, 0, 0.646);
+    position: absolute;
+    top:100px;
+}
+
+/* TIPO ABSOLUTE COM PAI NÃO ESTÁTICO*/
+#p-absolute-relative{
+    background-color: rgb(29, 138, 255);
+    position: relative;
+}
+
+#f-absolute-com-pai{
+    background-color:rgb(234, 255, 0);
+    position: absolute;
+    top:100px;
+}
